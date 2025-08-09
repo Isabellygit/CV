@@ -4,85 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo - Maria Moreira</title>
-    <style>
-        body {
-            font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h1, h2 {
-            color: #2c3e50;
-        }
-        h1 {
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-        }
-        h2 {
-            border-left: 4px solid #3498db;
-            padding-left: 10px;
-            margin-top: 25px;
-            margin-bottom: 15px;
-        }
-        .contact-info {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-            margin-bottom: 20px;
-        }
-        .contact-info div {
-            display: flex;
-            align-items: center;
-        }
-        .contact-info a {
-            color: #2980b9;
-            text-decoration: none;
-        }
-        .contact-info a:hover {
-            text-decoration: underline;
-        }
-        .experience-item, .certification-item {
-            margin-bottom: 20px;
-        }
-        .job-title {
-            font-weight: bold;
-            color: #2c3e50;
-        }
-        .company, .date {
-            display: inline;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        .skills-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 30px;
-        }
-        .skills-column {
-            flex: 1;
-            min-width: 250px;
-        }
-        @media print {
-            body {
-                font-size: 12pt;
-                line-height: 1.4;
-            }
-            a {
-                text-decoration: none;
-                color: #333;
-            }
-            .no-print {
-                display: none;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="CV.css">
 </head>
 <body>
     <h1>MARIA ISABELLY MOREIRA</h1>
@@ -169,5 +91,11 @@
     </ul>
 
 </body>
+<footert >
+    <div class="footert">
+        <button onclick="window.print()">Imprimir Currículo</button>
+    </div>
+</footert>
+
 </html>
 
